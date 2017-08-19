@@ -30,6 +30,7 @@ import hudson.Plugin;
  */
 public class CopyArtifactPlugin extends Plugin {
 
+
     @Override
     public void postInitialize() throws Exception {
         BuildSelectorParameter.initAliases();
